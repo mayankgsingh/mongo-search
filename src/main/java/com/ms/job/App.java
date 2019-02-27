@@ -1,4 +1,4 @@
-package com.sj.job;
+package com.ms.job;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Mayank
  *
  */
-@SpringBootApplication(scanBasePackages = "com.sj")
+@SpringBootApplication(scanBasePackages = "com.ms")
 public class App {
   public static void main(String[] args) {
     SpringApplication.run(App.class, args);

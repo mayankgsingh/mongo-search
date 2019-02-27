@@ -8,7 +8,7 @@
 		</layout>
 	</appender>
 
-	<logger name="com.sj" level="info" additivity="false">
+	<logger name="com.ms" level="info" additivity="false">
 		<appender-ref ref="STDOUT" />
 	</logger>
 	

@@ -1,4 +1,4 @@
-package com.sj.job.dao;
+package com.ms.job.dao;
 
 import static com.mongodb.client.model.Filters.eq;
 

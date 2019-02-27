@@ -1,4 +1,4 @@
-package com.sj.controller;
+package com.ms.controller;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.sj.job.App;
+import com.ms.job.App;
 
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc

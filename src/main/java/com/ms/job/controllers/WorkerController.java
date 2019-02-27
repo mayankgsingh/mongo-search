@@ -1,4 +1,4 @@
-package com.sj.job.controllers;
+package com.ms.job.controllers;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sj.job.dao.JobDao;
-import com.sj.job.dao.WorkerDao;
+import com.ms.job.dao.JobDao;
+import com.ms.job.dao.WorkerDao;
 
 /**
  * REST controller class for Worker entity.

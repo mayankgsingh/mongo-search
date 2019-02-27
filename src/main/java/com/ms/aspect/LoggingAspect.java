@@ -1,4 +1,4 @@
-package com.sj.aspect;
+package com.ms.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
 public class LoggingAspect {
 public static final Logger LOG = LoggerFactory.getLogger(LoggingAspect.class);
   
-  @Before("execution(* com.sj.job.controllers.*.*(..))")
+  @Before("execution(* com.ms.job.controllers.*.*(..))")
   public void logBefore(JoinPoint joinPoint) {
     LOG.info("Executing: {}.{} / {}", joinPoint.getTarget().getClass().getName(), joinPoint.getSignature().getName(), joinPoint.getArgs());
   }

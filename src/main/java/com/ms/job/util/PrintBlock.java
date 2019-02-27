@@ -1,4 +1,4 @@
-package com.sj.job.util;
+package com.ms.job.util;
 
 import org.bson.Document;
 import org.springframework.stereotype.Service;
