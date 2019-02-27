@@ -60,4 +60,4 @@ mvn exec:java -Dexec.mainClass="com.ms.job.App"
 ```
 
 Once the application starts up, use below URL in browser.
-http://<ip>:<port>/worker/<empid>/suggest 
+http://[ip]:[port]/worker/[empid]/suggest 
